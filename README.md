@@ -1,5 +1,13 @@
 # Anti-Scalping Smart Contracts
 
+> **GROUP 4 - Ang, Katigbak, Garrovillo, Ong, Pintor**
+>
+> **Project:** Decentralized Event Ticketing and Anti-Scalping Protocol
+>
+> **Problem:** The current event ticketing industry is severely compromised by predatory scalping and fraudulent resales. Automated bots rapidly purchase large quantities of tickets for concerts and university events, creating artificial scarcity and driving up prices on secondary markets. Consequently, buyers are forced to pay exorbitant markups or risk falling victim to scams involving forged or duplicated QR codes, with no centralized way to verify ticket authenticity.
+>
+> **Why Blockchain and Smart Contracts are Important for this Problem:** By converting event tickets into digital assets governed by smart contracts, we can establish a trustless, transparent system that directly addresses fraud and price manipulation via immutable authenticity and automate price ceilings. For the former, the blockchain serves as the ultimate, tamper-proof public ledger. Because ticket ownership is cryptographically tied to a user's wallet address and verified by the smart contract, it is impossible to generate fake tickets or sell duplicate copies. For price ceilings, smart contracts allow us to program strict economic rules directly into the asset's code. By utilizing custom transfer functions and conditional `require` statements, the contract can dictate that a ticket cannot be transferred to a new owner if the transaction value exceeds a predefined cap (e.g., 110% of the original base price). This algorithmically enforces fair pricing and effectively eliminates the profit incentive for scalping bots.
+
 A Solidity protocol that eliminates ticket fraud and predatory scalping by turning every event ticket into an individual smart contract with enforced price ceilings.
 
 ## The Problem
